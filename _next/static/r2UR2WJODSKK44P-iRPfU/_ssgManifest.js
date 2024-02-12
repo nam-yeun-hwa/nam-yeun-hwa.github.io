@@ -1,0 +1,1 @@
+self.__SSG_MANIFEST=new Set(["\u002Falgorithm\u002F[id]","\u002Farchives\u002F[postid]","\u002Fcategories\u002F[categoryname]","\u002Fcategories\u002F[categoryname]\u002F[postid]","\u002Fposts\u002F[postid]","\u002Ftags\u002F[tagname]\u002F[postid]"]);self.__SSG_MANIFEST_CB&&self.__SSG_MANIFEST_CB()
