@@ -1,0 +1,203 @@
+2:I[5250,["250","static/chunks/250-8b90be581650ff9d.js","216","static/chunks/app/(layoutCase)/tags/%5Btagname%5D/%5Bpostid%5D/page-bd95e9cc10b1fc88.js"],""]
+3:I[8843,["250","static/chunks/250-8b90be581650ff9d.js","216","static/chunks/app/(layoutCase)/tags/%5Btagname%5D/%5Bpostid%5D/page-bd95e9cc10b1fc88.js"],""]
+7:I[777,["250","static/chunks/250-8b90be581650ff9d.js","216","static/chunks/app/(layoutCase)/tags/%5Btagname%5D/%5Bpostid%5D/page-bd95e9cc10b1fc88.js"],""]
+8:I[5613,[],""]
+b:I[1778,[],""]
+f:I[5210,["250","static/chunks/250-8b90be581650ff9d.js","304","static/chunks/304-2ef64042fd5d1e1c.js","730","static/chunks/730-f56ebe909f1c8bdb.js","516","static/chunks/516-eaf4d30099c06448.js","927","static/chunks/927-1c1f6169d2e4d0dc.js","338","static/chunks/338-f2b637e42a7ca177.js","464","static/chunks/app/(layoutCase)/layout-66e4d36269f645f8.js"],""]
+4:T450,&lt;!DOCTYPE html>
+&lt;html>
+&lt;head>
+&lt;style>
+  .flex-container {
+    display: flex;
+    justify-content: space-between; /* 아이템 간 간격을 균등하게 분배 */
+    background-color: #f0f0f0;
+  }
+  .flex-item {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+  }
+&lt;/style>
+&lt;/head>
+&lt;body>
+  &lt;div class="flex-container">
+    &lt;div class="flex-item">1&lt;/div>
+    &lt;div class="flex-item">2&lt;/div>
+    &lt;div class="flex-item">3&lt;/div>
+  &lt;/div>
+&lt;/body>
+&lt;/html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .flex-container {
+      display: flex;
+      justify-content: space-between; /* 아이템 간 간격을 균등하게 분배 */
+      background-color: #f0f0f0;
+    }
+    .flex-item {
+      background-color: #4CAF50;
+      color: white;
+      padding: 20px;
+      margin: 10px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="flex-container">
+    <div class="flex-item">1</div>
+    <div class="flex-item">2</div>
+    <div class="flex-item">3</div>
+  </div>
+</body>
+</html>5:T5c4,&lt;!DOCTYPE html>
+&lt;html>
+&lt;head>
+  &lt;style>
+    .grid-container {
+      display: grid;
+      grid-template-columns: 100px 100px 100px; /* 3열, 각 100px */
+      grid-template-rows: 80px 80px; /* 2행, 각 80px */
+      gap: 10px; /* 셀 간 간격 */
+      background-color: #f0f0f0;
+    }
+    .grid-item {
+      background-color: #2196F3;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+  &lt;/style>
+&lt;/head>
+&lt;body>
+  &lt;div class="grid-container">
+    &lt;div class="grid-item">1&lt;/div>
+    &lt;div class="grid-item">2&lt;/div>
+    &lt;div class="grid-item">3&lt;/div>
+    &lt;div class="grid-item">4&lt;/div>
+    &lt;div class="grid-item">5&lt;/div>
+    &lt;div class="grid-item">6&lt;/div>
+  &lt;/div>
+&lt;/body>
+&lt;/html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .grid-container {
+      display: grid;
+      grid-template-columns: 200px 150px 100px; /* 3열, 각 100px */
+      grid-template-rows: 80px 80px; /* 2행, 각 80px */
+      gap: 10px; /* 셀 간 간격 */
+      background-color: #f0f0f0;
+    }
+    .grid-item {
+      background-color: #2196F3;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="grid-container">
+    <div class="grid-item">1</div>
+    <div class="grid-item">2</div>
+    <div class="grid-item">3</div>
+    <div class="grid-item">4</div>
+    <div class="grid-item">5</div>
+    <div class="grid-item">6</div>
+  </div>
+</body>
+</html>6:T5a7,&lt;!DOCTYPE html>
+&lt;html>
+&lt;head>
+&lt;style>
+  .grid-container2 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 10px;
+  }
+
+.item {
+  background-color: lightgreen;
+  padding: 20px;
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  .grid-container {
+    grid-template-columns: 1fr; /* 작은 화면에서는 1열로 */
+  }
+}
+&lt;/style>
+&lt;/head>
+&lt;body>
+ &lt;div class="grid-container2">
+  &lt;div class="item">아이템 1&lt;/div>
+  &lt;div class="item">아이템 2&lt;/div>
+  &lt;div class="item">아이템 3&lt;/div>
+  &lt;div class="item">아이템 4&lt;/div>
+  &lt;div class="item">아이템 5&lt;/div>
+  &lt;div class="item">아이템 6&lt;/div>
+ &lt;/div>
+&lt;/body>
+&lt;/html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+   .grid-container2 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 10px;
+  background-color: #f0f0f0;
+}
+
+.item {
+  background-color: lightgreen;
+  padding: 20px;
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  .grid-container2 {
+    grid-template-columns: 1fr; /* 작은 화면에서는 1열로 */
+  }
+}
+</style>
+</head>
+<body>
+  <div class="grid-container2">
+  <div class="item">아이템 1</div>
+  <div class="item">아이템 2</div>
+  <div class="item">아이템 3</div>
+  <div class="item">아이템 4</div>
+  <div class="item">아이템 5</div>
+  <div class="item">아이템 6</div>
+  </div>
+</body>
+</html>9:["tagname","%EC%8A%A4%ED%82%A4%EB%84%88%EC%9D%98%20%EC%8B%AC%EB%A6%AC%EC%83%81%EC%9E%90%20%EC%97%B4%EA%B8%B0","d"]
+a:["postid","52","d"]
+c:"$Ld"
+10:[]
+11:{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"}
+12:{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"}
+13:{"display":"inline-block"}
+14:{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0}
+0:["TDDfdltTu2WBfGNY-pzid",[[["",{"children":["(layoutCase)",{"children":["tags",{"children":[["tagname","%EC%8A%A4%ED%82%A4%EB%84%88%EC%9D%98%20%EC%8B%AC%EB%A6%AC%EC%83%81%EC%9E%90%20%EC%97%B4%EA%B8%B0","d"],{"children":[["postid","52","d"],{"children":["__PAGE__?{\"tagname\":\"스키너의 심리상자 열기\",\"postid\":\"52\"}",{}]}]}]}],"search":["__DEFAULT__",{}]}]},"$undefined","$undefined",true],["",{"children":["(layoutCase)",{"children":["tags",{"children":[["tagname","%EC%8A%A4%ED%82%A4%EB%84%88%EC%9D%98%20%EC%8B%AC%EB%A6%AC%EC%83%81%EC%9E%90%20%EC%97%B4%EA%B8%B0","d"],{"children":[["postid","52","d"],{"children":["__PAGE__",{},["$L1",[[["$","article",null,{"className":"$undefined","children":["$","header",null,{"children":["$","h1",null,{"className":"postUserInfo_h1__uhAqy","children":"[TECH-QA] Flex와 Grid 비교"}]}]}],["$","div",null,{"className":"postUserInfo_post_meta__ABvuC","children":[["$","span",null,{"children":["Posted"," ",["$","time",null,{"className":"postUserInfo_time__2exyR","children":["6 days"," "]}]]}],["$","span",null,{"className":"postUserInfo_update__f345P","children":["Updated"," ",["$","time",null,{"className":"postUserInfo_time__2exyR","children":"6 days"}]]}]]}],["$","div",null,{"children":["$","span",null,{"className":"postUserInfo_post_meta__ABvuC","children":["By"," ",["$","em",null,{"children":["$","$L2",null,{"href":"https://nam-yeun-hwa.github.io/","className":"postUserInfo_author__fVGYM","children":"베짱이가 되고싶은 개미。"}]}]]}]}]],[[false,false,["$","h3",null,{"className":"heading_h3__UisKt","children":"Flex (Flexbox)"}],false],["$","ul",null,{"className":"liststyle_ul__uFdBS","children":[["$","li","0",{"className":"liststyle_dot__SMzS4","dangerouslySetInnerHTML":{"__html":"단일 방향(행 또는 열)으로 아이템을 배치."}}],["$","li","1",{"className":"liststyle_dot__SMzS4","dangerouslySetInnerHTML":{"__html":"아이템의 크기가 동적으로 변할 수 있어 반응형 디자인에 유리."}}],["$","li","2",{"className":"liststyle_dot__SMzS4","dangerouslySetInnerHTML":{"__html":"간단한 정렬과 공간 분배에 강력."}}],"$undefined"]}],["$","$L3","2",{"code":"$4"}],["$","div","3",{"className":"postDetail_content__OTeO2","dangerouslySetInnerHTML":{"__html":"위 예제에서 .flex-container는 display: flex를 통해 가로 방향으로 아이템을 배치합니다. justify-content: space-between 속성은 아이템 사이의 공간을 균등하게 나누어 배치합니다. 결과적으로 세 개의 박스가 수평으로 나란히 정렬됩니다."}}],[false,false,["$","h3",null,{"className":"heading_h3__UisKt","children":"Grid"}],false],["$","div","5",{"className":"postDetail_content__OTeO2","dangerouslySetInnerHTML":{"__html":"grid는 2차원 그리드 시스템을 구성하는 데 사용되며, 수평(가로)과 수직(세로) 방향 모두를 고려한 레이아웃을 설계할 수 있습니다. 각 셀의 크기를 미리 정의하여 일관된 구조를 유지하며, 복잡한 레이아웃에 적합합니다."}}],["$","ul",null,{"className":"liststyle_ul__uFdBS","children":[["$","li","0",{"className":"liststyle_dot__SMzS4","dangerouslySetInnerHTML":{"__html":"행(row)과 열(column)을 모두 정의 가능."}}],["$","li","1",{"className":"liststyle_dot__SMzS4","dangerouslySetInnerHTML":{"__html":"셀 크기를 고정하거나 비율로 설정하여 일정한 구조 유지."}}],["$","li","2",{"className":"liststyle_dot__SMzS4","dangerouslySetInnerHTML":{"__html":"레이아웃 변화가 적은 정적인 디자인에 적합."}}],"$undefined"]}],["$","$L3","7",{"code":"$5"}],["$","div","8",{"className":"postDetail_content__OTeO2","dangerouslySetInnerHTML":{"__html":"위 예제에서는 grid-container가 2x2 그리드 구조를 형성합니다. grid-template-columns: 1fr 1fr로 두 개의 열을 동일한 비율로 나누고, grid-template-rows로 행 높이를 100px로 고정했습니다. gap 속성으로 셀 사이에 10px 간격을 추가했습니다."}}],[false,false,["$","h3",null,{"className":"heading_h3__UisKt","children":"Grid는 반응형에 적합한가?"}],false],["$","div","10",{"className":"postDetail_content__OTeO2","dangerouslySetInnerHTML":{"__html":"grid는 반응형 디자인에 매우 강력한 도구입니다. 미리 정의된 구조를 유지한다는 점은 고정된 레이아웃에 유리하다는 의미일 뿐, 반응형으로 동적으로 조정하는 데도 탁월합니다. CSS Grid는 다음과 같은 기능을 통해 반응형을 지원합니다"}}],["$","ul",null,{"className":"liststyle_ul__uFdBS","children":[["$","li","0",{"className":"liststyle_dot__SMzS4","dangerouslySetInnerHTML":{"__html":"<b>fr 단위</b>: 유연한 비율로 열/행 크기를 정의."}}],["$","li","1",{"className":"liststyle_dot__SMzS4","dangerouslySetInnerHTML":{"__html":"<b>minmax() 함수</b>: 최소/최대 크기를 설정해 콘텐츠에 따라 적응."}}],["$","li","2",{"className":"liststyle_dot__SMzS4","dangerouslySetInnerHTML":{"__html":"<b>auto-fit / auto-fill</b>: 열 개수를 화면 크기에 따라 자동으로 조정."}}],["$","li","3",{"className":"liststyle_dot__SMzS4","dangerouslySetInnerHTML":{"__html":"<b>미디어 쿼리</b>: 화면 크기에 따라 그리드 구조를 변경."}}],"$undefined"]}],["$","$L3","12",{"code":"$6"}],["$","ul",null,{"className":"liststyle_ul__uFdBS","children":[["$","li","0",{"className":"liststyle_dot__SMzS4","dangerouslySetInnerHTML":{"__html":"<b>auto-fit</b>: 사용 가능한 공간에 따라 열을 자동으로 채움."}}],["$","li","1",{"className":"liststyle_dot__SMzS4","dangerouslySetInnerHTML":{"__html":"<b>minmax(150px, 1fr)</b>: 각 열의 최소 너비는 150px, 최대는 남은 공간을 비율로 나눔."}}],["$","li","2",{"className":"liststyle_dot__SMzS4","dangerouslySetInnerHTML":{"__html":"<b>결과</b>: 화면이 넓으면 여러 열로 배치되고, 좁아지면 열이 줄어듦."}}],["$","li","3",{"className":"liststyle_dot__SMzS4","dangerouslySetInnerHTML":{"__html":"화면 너비가 600px 이하일 때 1열로 강제 전환."}}]]}],["$","div","14",{"className":"postDetail_content__OTeO2","dangerouslySetInnerHTML":{"__html":"큰 화면에서는 아이템이 여러 열로 나열되고, 작은 화면에서는 자동으로 한 열로 정렬되어 반응형 레이아웃이 구현됨."}}]],["$","$L7",null,{"postid":52,"prePostTitle":{"id":53,"title":"[TECH-QA] 자바스크립트에서 this와 명시적 바인딩 (call, apply, bind)","date":"2025-03-26 11:26:33","folder":"Javascript","tag":["JavaScript","TECH-QA"],"preview":"자바스크립트에서 this의 값은 함수가 호출될 때 결정되며, 호출 방식에 따라 다르게 작동합니다. 아래에서 주요 경우와 예제를 통해 설명하겠습니다.","post":[{"type":"normal","value":"자바스크립트에서 this의 값은 함수가 호출될 때 결정되며, 호출 방식에 따라 다르게 작동합니다. 아래에서 주요 경우와 예제를 통해 설명하겠습니다."},{"type":"H3","value":"전역 컨텍스트에서의 this"},{"type":"normal","value":"함수가 전역 스코프에서 호출될 때, this는 전역 객체를 가리킵니다. 브라우저에서는 window, Node.js에서는 global입니다."},{"type":"code","value":"console.log(this); // 브라우저에서 실행 시: Window 객체\n\nfunction sayHello() {\n  console.log(this);\n}\nsayHello(); // Window 객체 (전역 호출)"},{"type":"normal","value":"\"use strict\" 모드에서는 전역 호출 시 this가 undefined로 설정됩니다."},{"type":"code","value":"\"use strict\";\n\nfunction sayThis() {\n  console.log(this);\n}\n\nsayThis(); // undefined"},{"type":"H3","value":"객체 메서드에서의 this"},{"type":"normal","value":"호출되는 함수가 객체의 메서드일때, this는 해당 객체를 가리킵니다."},{"type":"code","value":"const person = {\n  name: \"Alice\",\n  greet: function() {\n    console.log(this.name);\n  }\n};\n\nperson.greet(); // \"Alice\" (this는 person 객체를 가리킴)"},{"type":"normal","value":"하지만 함수를 객체에서 분리해 호출하면 this가 객체를 잃어버립니다."},{"type":"code","value":"const person = {\n  name: \"Hannah\",\n  sayName: function() {\n    console.log(this.name);\n  }\n};\n\nconst func = person.sayName;\nfunc(); // undefined (this는 전역 객체 Window를 가리킴)"},{"type":"H3","value":"내부 함수에서의 this 문제"},{"type":"normal","value":"일반 함수 안에 또 다른 일반 함수가 있을 경우, 내부 함수의 this는 외부 함수의 this를 자동으로 상속하지 않습니다."},{"type":"code","value":"const obj = {\n  name: \"Kate\",\n  outer: function() {\n    console.log(this.name); //Kate\n    function inner() {\n      console.log(this.name); //undefined (this는 Window)\n    }\n    inner();\n  }\n};\n\nobj.outer();\n// 출력:\n// Outer this: Kate\n// Inner this: undefined (this는 Window)"},{"type":"h4","value":"해결방법"},{"type":"normal","value":"객체 메서드에서의 this를 변수에 저장하여 사용하는 방법"},{"type":"code","value":"const obj = {\n  name: \"Kate\",\n  outer: function() {\n    const self = this;\n    function inner() {\n      console.log(self.name); // Inner this: Kate\n    }\n    inner();\n  }\n};\n\nobj.outer(); // Inner this: Kate"},{"type":"normal","value":"객체 메서드에서의 this를 사용할수 있는 bind() 사용법"},{"type":"code","value":"const obj = {\n  name: \"Kate\",\n  outer: function() {\n    const inner = function() {\n      console.log(this.name);\n    }.bind(this);\n    inner();\n  }\n};\n\nobj.outer(); // Inner this: Kate"},{"type":"H3","value":"생성자 함수에서의 this"},{"type":"normal","value":"new 키워드로 생성자 함수를 호출하면, this는 새로 생성된 객체를 가리킵니다."},{"type":"code","value":"function Car(model) {\n  this.model = model;\n}\n\nconst myCar = new Car(\"Tesla\");\n\nconsole.log(myCar.model); // \"Tesla\""},{"type":"H3","value":"명시적 바인딩 (call, apply, bind)"},{"type":"normal","value":"call, apply, bind를 사용하면 this를 명시적으로 설정할 수 있습니다."},{"type":"h4","value":"call 예제"},{"type":"code","value":"function introduce(age) {\n  console.log(this.name, age);\n}\n\nconst user = { name: \"Bob\" };\n\nintroduce.call(user, 25); // \"Bob, 25\""},{"type":"h4","value":"apply 예제"},{"type":"code","value":"function introduce(age) {\n  console.log(this.name, age);\n}\n\nconst user = { name: \"Bob\" };\n\nintroduce.apply(user, [30]); // \"Bob 30\""},{"type":"emphasis","value":"호출 시점에 <b>this를 동적</b>으로 결정해야 하는 상황에서는 <b>call</b>이나 <b>apply</b>가 매우 유용합니다.","propsType":"tip"},{"type":"h4","value":"bind 예제"},{"type":"code","value":"function introduce(age) {\n  console.log(this.name, age);\n}\n\nconst user = { name: \"Bob\" };\n\nconst boundIntroduce = introduce.bind(user);\n\nboundIntroduce(35); // \"Bob 35\""},{"type":"h4","value":"화살표 함수에서의 this(가장 간단한 해결책)"},{"type":"code","value":"const obj = {\n  name: \"Charlie\",\n  sayName: function() {\n    const arrowFunc = () => console.log(this.name);\n    arrowFunc();\n  }\n};\n\nobj.sayName(); // \"Charlie\" (this는 obj를 가리킴)"},{"type":"normal","value":"화살표 함수는 this를 lexical scope(정적 범위)에서 가져옵니다. 즉, 함수가 정의된 위치의 상위 스코프에서 this를 상속받습니다."},{"type":"h4","value":"일반 함수(외부 스코프의 this를 저장) "},{"type":"code","value":"const obj2 = {\n  name: \"David\",\n  sayName: function() {\n    const self = this;\n    const normalFunc = function() {\n      console.log(self.name);\n    };\n    normalFunc();\n  }\n};\n\nobj2.sayName(); // \"David\""},{"type":"normal","value":"self 변수에 외부 스코프의 this를 저장하여 내부 함수에서 사용합니다.\n\n이 세 가지 방법 모두 동일한 결과를 제공하며, \"David\"를 출력합니다. 가장 현대적이고 간결한 접근법은 첫 번째 화살표 함수 방법을 사용하는 것입니다. 상황에 따라 적절한 방법을 선택할 수 있습니다:"},{"type":"stringlist","value":"화살표 함수: 간결하고 직관적\nbind(): 명시적 바인딩 필요 시\nself 변수: 오래된 코드와의 호환성이나 특정 상황에서"},{"type":"H3","value":"이벤트 핸들러에서의 this"},{"type":"normal","value":"이벤트 핸들러로 함수가 호출되면, this는 일반적으로 이벤트가 발생한 DOM 요소를 가리킵니다."},{"type":"code","value":"document.querySelector(\"button\").addEventListener(\"click\", function() {\n  console.log(this); // &lt;button> 요소\n});"},{"type":"H3","value":"화살표 함수를 사용한 이벤트 핸들러에서의 this"},{"type":"code","value":"document.querySelector(\"button\").addEventListener(\"click\", () => {\n  console.log(this); // Window 객체 (상위 스코프의 this)\n});"},{"type":"H3","value":"결과적으로"},{"type":"stringlist","value":"전역 호출: window (strict 모드에서는 undefined).\n객체 메서드: 호출한 객체.\n명시적 바인딩: call, apply, bind로 지정한 객체.\n이벤트 핸들러: 이벤트가 발생한 요소.\n생성자 함수: 새로 생성된 객체.\n내부 함수: 호출 방식에 따라 결정 (보통 전역 객체)."},{"type":"normal","value":"일반 함수는 호출 방식에 따라 this가 유연하게 변한다는 점에서 화살표 함수와 대비됩니다. 화살표 함수는 상위 스코프의 this를 고정적으로 사용하지만, 일반 함수는 호출 시점에 따라 달라지므로 주의가 필요합니다. 추가 질문이 있으면 말씀해주세요!"}]},"nextPostTile":{"id":51,"title":"[TECH-QA] 이벤트 버블링(Event Bubbling)과 이벤트 캡쳐링(Event Capturing)","date":"2025-03-24 15:02:33","folder":"Javascript","tag":["JavaScript","TECH-QA"],"preview":"이벤트 버블링(Event Bubbling)은 HTML에서 이벤트가 발생했을 때, 해당 이벤트가 발생한 요소에서 시작하여 상위 요소로 점진적으로 전파되는 현상을 의미합니다. 이는 DOM(Document Object Model)의 계층 구조를 따라 이벤트가 처리되는 기본 동작 방식입니다. ","post":[{"type":"h2","value":"이벤트 버블링(Event Bubbling)"},{"type":"normal","value":"이벤트 버블링(Event Bubbling)은 HTML에서 이벤트가 발생했을 때, 해당 이벤트가 발생한 요소에서 시작하여 상위 요소로 점진적으로 전파되는 현상을 의미합니다. 이는 DOM(Document Object Model)의 계층 구조를 따라 이벤트가 처리되는 기본 동작 방식입니다."},{"type":"h4","value":"이벤트 버블링의 동작 원리"},{"type":"normal","value":"이벤트 버블링은 사용자가 특정 요소에서 이벤트를 발생시켰을 때(예: 버튼 클릭), <b>해당 요소에서 이벤트가 처리된 후 부모 요소로 이벤트가 전달되는 과정</b>입니다. 예를 들어, &lt;div> 안에 &lt;button>이 있고 버튼을 클릭하면, 먼저 &lt;button>에서 이벤트가 처리되고, 그 다음 &lt;div>로 이벤트가 전파됩니다. 이 과정은 DOM 트리의 최상위 요소(보통 document나 window)에 도달할 때까지 계속됩니다."},{"type":"h4","value":"이벤트 위임(Event Delegation)"},{"type":"normal","value":"이벤트 버블링을 활용하면 이벤트 위임을 구현할 수 있습니다. 이벤트 위임은 개별 하위 요소마다 이벤트 핸들러를 등록하는 대신, <b>공통 부모 요소에 하나의 핸들러를 등록하여 하위 요소에서 발생한 이벤트를 처리하는 방식</b>입니다. 이는 코드 효율성을 높이고, 동적으로 추가된 요소에도 이벤트 처리를 적용할 수 있게 해줍니다."},{"type":"h4","value":"이벤트 전파 방지"},{"type":"normal","value":"때로는 이벤트가 <b>상위 요소로 전파되는 것을 막고 싶을 때</b>가 있습니다. 이를 위해 이벤트 객체의 stopPropagation() 메서드를 사용하면 이벤트가 더 이상 버블링 또는 캡쳐링되지 않도록 중지할 수 있습니다. 단, stopPropagation()은 이벤트 전파만 막을 뿐, 기본 동작(예: 링크 클릭 시 페이지 이동)을 막지는 않습니다. 기본 동작을 막으려면 preventDefault()를 추가로 사용해야 합니다."},{"type":"H3","value":"HTML 구조"},{"type":"code","value":"&lt;div id=\"parent\">\n  &lt;button id=\"child1\">버튼 1</button>\n  &lt;button id=\"child2\">버튼 2</button>\n&lt;/div>"},{"type":"H3","value":"JavaScript 코드"},{"type":"code","value":"// 부모 요소에 이벤트 핸들러 등록 (이벤트 위임)\ndocument.getElementById('parent').addEventListener('click', function(event) {\n  console.log('부모 요소에서 이벤트 감지:', event.target.id);\n  \n  // 특정 조건에서 이벤트 전파 중지\n  if (event.target.id === 'child1') {\n    console.log('child1 클릭 시 전파 중지');\n    event.stopPropagation();\n  }\n});\n\n// 개별 요소에 핸들러 추가 (비교용)\ndocument.getElementById('child1').addEventListener('click', function() {\n  console.log('child1에서 직접 처리');\n});"},{"type":"h4","value":"버블링 확인"},{"type":"stringlist","value":"\"버튼 1\"(child1)을 클릭하면 먼저 child1에 등록된 핸들러가 실행되어 \"child1에서 직접 처리\"가 출력됩니다.\n이후 이벤트가 부모(parent)로 버블링되어 \"부모 요소에서 이벤트 감지: child1\"이 출력됩니다.\n추가로 stopPropagation()이 호출되므로 더 이상 상위로 전파되지 않습니다."},{"type":"h4","value":"이벤트 위임 확인"},{"type":"stringlist","value":"\"버튼 2\"(child2)를 클릭하면 child2에는 개별 핸들러가 없지만, 부모 요소에 등록된 핸들러가 이를 감지해 \"부모 요소에서 이벤트 감지: child2\"를 출력합니다.\n이를 통해 개별 버튼마다 핸들러를 등록하지 않아도 부모에서 모든 클릭 이벤트를 처리할 수 있음을 알 수 있습니다."},{"type":"h4","value":"실제 활용 예시"},{"type":"stringlist","value":"예를 들어, 동적으로 버튼이 추가되는 리스트가 있다고 가정할 때, 각 버튼에 핸들러를 추가하는 대신 부모 &lt;ul> 요소에 핸들러를 등록하면 새로 추가된 버튼도 자동으로 처리됩니다."},{"type":"h2","value":"이벤트 캡쳐링(Event Capturing)"},{"type":"normal","value":"이벤트 캡쳐링(Event Capturing)은 이벤트가 최상위 요소에서 시작해 하위 요소로 내려가는 방식으로, 버블링과는 반대 방향으로 작동합니다. HTML에서는 기본적으로 버블링이 주로 사용되지만, 필요에 따라 캡쳐링도 활용할 수 있습니다."},{"type":"h4","value":"캡쳐링 사용 예제"},{"type":"code","value":"document.getElementById('parent').addEventListener('click', function() {\n  console.log('캡쳐링 단계에서 감지');\n}, { capture: true }); // 캡쳐링 모드 활성화"},{"type":"normal","value":"{ capture: true } 옵션을 추가하면 이벤트가 캡쳐링 단계에서 처리됩니다. 이 경우, 부모에서 먼저 이벤트가 감지된 후 자식으로 전달됩니다."}]},"segment":"posts"}],["$","div",null,{"className":"footer_footer_container__MsSvO","children":["$","footer",null,{"className":"footer_footer__AwYty","children":[["$","p",null,{"className":"footer_copylight___J5l0","children":["© 2024 ","베짱이가 되고싶은 개미。"," Some rights reserved."]}],["$","p",null,{"className":"footer_theme__bwXbg","children":"portfolio v1.0.0-alpha.3"}]]}]}]],null]]},["$","$L8",null,{"parallelRouterKey":"children","segmentPath":["children","(layoutCase)","children","tags","children","$9","children","$a","children"],"loading":"$undefined","loadingStyles":"$undefined","loadingScripts":"$undefined","hasLoading":false,"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$Lb",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","styles":[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/0d8744d30e461588.css","precedence":"next","crossOrigin":""}]]}]]},["$","$L8",null,{"parallelRouterKey":"children","segmentPath":["children","(layoutCase)","children","tags","children","$9","children"],"loading":"$undefined","loadingStyles":"$undefined","loadingScripts":"$undefined","hasLoading":false,"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$Lb",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","styles":null}]]},["$","$L8",null,{"parallelRouterKey":"children","segmentPath":["children","(layoutCase)","children","tags","children"],"loading":"$undefined","loadingStyles":"$undefined","loadingScripts":"$undefined","hasLoading":false,"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$Lb",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","styles":null}]],"search":["__DEFAULT__",{},["$c","$Le",null]]},[null,["$","$Lf",null,{"children":["$","$L8",null,{"parallelRouterKey":"children","segmentPath":["children","(layoutCase)","children"],"loading":"$undefined","loadingStyles":"$undefined","loadingScripts":"$undefined","hasLoading":false,"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$Lb",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":"404"}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],"notFoundStyles":[],"styles":null}],"search":["$","$L8",null,{"parallelRouterKey":"search","segmentPath":["children","(layoutCase)","search"],"loading":"$undefined","loadingStyles":"$undefined","loadingScripts":"$undefined","hasLoading":false,"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$Lb",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$10","styles":null}],"params":{}}],null]]},[null,["$","html",null,{"lang":"en","className":"","children":[["$","head",null,{"children":[["$","link",null,{"rel":"stylesheet","href":"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css","as":"style"}],["$","link",null,{"rel":"preconnect","href":"https://fonts.googleapis.com"}],["$","link",null,{"rel":"preconnect","href":"https://fonts.gstatic.com"}],["$","link",null,{"rel":"stylesheet","href":"https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR&display=swap","as":"style"}]]}],["$","body",null,{"children":["$","$L8",null,{"parallelRouterKey":"children","segmentPath":["children"],"loading":"$undefined","loadingStyles":"$undefined","loadingScripts":"$undefined","hasLoading":false,"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$Lb",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":"$11","children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":"$12","children":"404"}],["$","div",null,{"style":"$13","children":["$","h2",null,{"style":"$14","children":"This page could not be found."}]}]]}]}]],"notFoundStyles":[],"styles":[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/04d20c09b3119d43.css","precedence":"next","crossOrigin":""}]]}]}]]}],null]],[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/0db39ffb54d4ae85.css","precedence":"next","crossOrigin":""}]],"$L15"]]]]
+e:E{"digest":"NEXT_NOT_FOUND"}
+15:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","1",{"charSet":"utf-8"}],["$","title","2",{"children":"be come 💡"}],["$","meta","3",{"name":"description","content":"App for an Ant Who Wants to Become a Bejjangyi"}]]
+1:null
+d:null
